@@ -19,7 +19,7 @@ import { PieChartComponent } from './npx-chart/pie-chart/pie-chart.component';
     BrowserModule,
     NgApexchartsModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

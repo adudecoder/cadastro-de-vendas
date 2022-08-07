@@ -4,13 +4,15 @@ import {
   ApexNonAxisChartSeries,
   ApexResponsive,
   ApexChart,
-  ChartComponent
+  ChartComponent,
+  ApexLegend
 } from "ng-apexcharts";
 import { Carteira } from 'src/app/home/carteira';
 
 export type ChartOptions = {
   series: ApexNonAxisChartSeries;
   chart: ApexChart;
+  legend: ApexLegend;
   responsive: ApexResponsive[];
   labels: any;
 };

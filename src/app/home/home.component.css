@@ -25,18 +25,29 @@ i {
 }
 
 #pitang {
-    background-color: red;
-    border-radius: 10%;
-    padding: 5px;
+  background-color: red;
+  border-radius: 10%;
+  padding: 5px;
 }
 
 #facepe {
-    width: 200px;
+  width: 200px;
 }
 
 #ete {
-    width: 200px;
-    border-radius: 10%;
+  width: 200px;
+  border-radius: 10%;
+}
+
+.titulo {
+  display: flex;
+  justify-content: center;
+  font-size: 150px;
+  margin-top: 10px;
+}
+
+.table {
+  padding: 15px;
 }
 
 /*Mobile display*/

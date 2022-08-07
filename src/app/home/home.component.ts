@@ -35,6 +35,11 @@ export class HomeComponent implements OnInit {
           this.carteiras[indiceCarteira].nome = this.carteira.nome
           this.carteiras[indiceCarteira].quantidade = this.carteira.quantidade
           this.carteiras[indiceCarteira].telefone = this.carteira.telefone
+          this.carteiras[indiceCarteira].rua = this.carteira.rua
+          this.carteiras[indiceCarteira].bairro = this.carteira.bairro
+          this.carteiras[indiceCarteira].cidade = this.carteira.cidade
+          this.carteiras[indiceCarteira].uf = this.carteira.uf
+          this.carteiras[indiceCarteira].cep = this.carteira.cep
         }
       }
 
@@ -61,6 +66,11 @@ export class HomeComponent implements OnInit {
         this.carteira.nome = this.carteiras[carteira].nome
         this.carteira.quantidade = this.carteiras[carteira].quantidade
         this.carteira.telefone = this.carteiras[carteira].telefone
+        this.carteira.rua = this.carteiras[carteira].rua
+        this.carteira.bairro = this.carteiras[carteira].bairro
+        this.carteira.cidade = this.carteiras[carteira].cidade
+        this.carteira.uf = this.carteiras[carteira].uf
+        this.carteira.cep = this.carteiras[carteira].cep
       }
     }
 
