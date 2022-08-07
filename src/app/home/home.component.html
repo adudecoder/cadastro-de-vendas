@@ -15,7 +15,6 @@
         </div>
         <div class="table mat-elevation-z8">
 
-            <!-- Outra table -->
             <div class="form-group">
                 <label class="text-primary" for="descricao">Rua: <em>*</em></label>
                 <input type="text" name="rua" class="form-control" id="rua" placeholder="Nome da rua"
@@ -41,18 +40,17 @@
                 <input type="text" name="cep" class="form-control" id="cep" placeholder="00000-000"
                     [(ngModel)]="carteira.cep" #cep="ngModel" required>
             </div>
-            <!-- Outra table -->
 
             <div class="col-lg-15">
                 <div class="input-group mb-3">
                     <div class="input-group-prepend">
-                        <span class="input-group-text bg-primary text-white">R$</span>
+                        <span class="input-group-text bg-primary text-white mat-elevation-z8">R$</span>
                     </div>
                     <input name="valor" class="form-control" type="number" [(ngModel)]="carteira.valor"
                         #valor="ngModel" required>
 
                     <div class="input-group-prepend">
-                        <span class="input-group-text bg-primary text-white">Fluxo de Caixa</span>
+                        <span class="input-group-text bg-primary text-white mat-elevation-z8">Fluxo de Caixa</span>
                     </div>
                     <select class="form-control" id="moneyOption" name="caixa" [(ngModel)]="carteira.caixa"
                         #caixa="ngModel" required>
@@ -61,7 +59,7 @@
                         <option>Quantidade</option>
                     </select>
                     <div class="input-group-prepend">
-                        <span class="input-group-text bg-primary text-white">Fornecedores</span>
+                        <span class="input-group-text bg-primary text-white mat-elevation-z8">Fornecedores</span>
                     </div>
                     <select class="form-control" id="moneyOption" name="fornecedores" [(ngModel)]="carteira.fornecedores"
                         #fornecedores="ngModel" required>
@@ -107,7 +105,7 @@
             <div class="col-lg-15 table-wrapper-scroll-y my-custom-scrollbar">
                 <table class="table text-center">
                     <thead>
-                        <tr>
+                        <tr class="bg-primary text-white mat-elevation-z8">
                             <th scope="col">Tipo</th>
                             <th scope="col">Fornecedor</th>
                             <th scope="col">Nome</th>

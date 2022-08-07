@@ -44,10 +44,15 @@ i {
   justify-content: center;
   font-size: 150px;
   margin-top: 10px;
+  text-align: center;
 }
 
 .table {
   padding: 15px;
+}
+
+th {
+  border: 1px solid white;
 }
 
 /*Mobile display*/
@@ -55,4 +60,30 @@ i {
   .images {
     display: block;
   }
+}
+
+@media (max-width: 650px) {
+  #pitang {
+    width: 100%;
+  }
+
+  #facepe {
+    width: 100%;
+  }
+
+  #ete {
+    width: 100%;
+  }
+}
+
+@media (max-width: 800px) {
+  .input-group {
+    display: inline;
+  }
+
+  .form-control {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
 }
