@@ -40,15 +40,15 @@ export class PieChartComponent implements OnInit{
         type: "pie"
       },
       labels: ["Entrada", "Saída", "Quantidade"],
+      legend: {
+        position: "bottom"
+      },
       responsive: [
         {
           breakpoint: 640,
           options: {
             chart: {
               width: 430
-            },
-            legend: {
-              position: "bottom"
             }
           }
         }
